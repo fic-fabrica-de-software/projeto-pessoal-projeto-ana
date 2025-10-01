@@ -12,3 +12,13 @@ body {
     width: 250px;
     margin: 60% 15% 60% 15%;
 }
+
+.imagemlogologin{
+    height: 200px;
+    width: 250px;
+    margin: 20% 15% 5% 15%;
+}
+
+.infologin{
+    font-size: medium;
+}
