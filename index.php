@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -12,7 +12,7 @@
     <main>
 
         <div>
-            <img class="imagemlogo" src="" alt="Logo do app">
+            <img class="imagemlogo" src="assets/logo_visual.png" alt="Logo do app">
         </div>
 
     </main>

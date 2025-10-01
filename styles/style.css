@@ -6,3 +6,9 @@ body {
     margin: 0px;
     border: 0px;
 }
+
+.imagemlogo{
+    height: 200px;
+    width: 250px;
+    margin: 60% 15% 60% 15%;
+}
