@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(167, 0, 0);
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0px;
@@ -29,4 +29,8 @@ body {
 
 input:focus{
     border-color: black;
+}
+
+.infocadatro{
+    margin-bottom: 3%;
 }
