@@ -35,6 +35,10 @@ input:focus{
     margin-bottom: 3%;
 }
 
+.text-input{
+  width:300px
+}
+
 .termodeuso{
     text-align: left;
     font-size: x-small;

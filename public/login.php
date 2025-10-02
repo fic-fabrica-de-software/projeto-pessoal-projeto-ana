@@ -31,7 +31,7 @@
                 </form>
         </div>
 
-        <p class="terms">By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p>
+        <p href="termosDeUso.php" class="terms">By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p>
 
 </body>
 </html>
