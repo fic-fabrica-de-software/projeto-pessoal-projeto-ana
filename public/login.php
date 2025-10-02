@@ -31,7 +31,7 @@
                 </form>
         </div>
 
-        <p class="terms">By clicking continue, you agree to our <strong> Terms of Service and Privacy Policy </strong></p>
+        <p class="terms">By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p>
 
 </body>
 </html>
