@@ -1,54 +1,3 @@
-<?php
-
-$mysqli = new mysqli("localhost", "root", "root", "fast_sesi_sa");
-if ($mysqli->connect_errno) {
-    die("Erro de conexão: " . $mysqli->connect_error);
-}
-
-session_start();
-
-if (isset($_GET['logout'])) {
-    session_destroy();
-    header("Location: paginaLogin.php");
-    echo " Sua sessão foi encerrada!";
-    exit;
-}
-
-$msg = "";
-if (isset($_GET['msg']) && $_GET['msg'] == 'expired') {
-    $msg = "Sua sessão foi expirada!";
-}
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $nome = $_POST["nome_funcionario"] ?? "";
-    $cred = $_POST["credencial_funcionario"] ?? "";
-    $pass = $_POST["password"] ?? ""; 
-
-    
-    $stmt = $mysqli->prepare("SELECT nome_funcionario, credencial_funcionario, senha_funcionario FROM funcionario WHERE nome_funcionario=? AND credencial_funcionario=?");
-    $stmt->bind_param("ss", $nome, $cred);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    $dados = $result->fetch_assoc();
-    $stmt->close();
-
-    //password_verify
-    if (password_verify($pass, $dados["senha_funcionario"])) {
-    echo 'Senha válida!';
-    } else {
-    echo 'Senha inválida';
-    }
-
-    if ($dados) {
-        $_SESSION["nome_funcionario"] = $dados["nome_funcionario"];
-        $_SESSION["credencial_funcionario"] = $dados["credencial_funcionario"];
-        header("Location: paginaMenuPrincipal.php");
-        exit;
-    } else {
-        $msg = "Usuário ou senha incorretos!";
-    }
-}
-?>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -82,6 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <button type="submit">Entrar</button>
                 </form>
         </div>
+
+        <p class="terms">By clicking continue, you agree to our <strong> Terms of Service and Privacy Policy </strong></p>
 
     <?php else: ?>
         <?php if ($msg): ?><p class="msg"><?= $msg ?></p><?php endif; ?>
