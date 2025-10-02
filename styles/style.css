@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
     border: 0px;
@@ -13,7 +13,11 @@ body {
     margin: 60% 15% 60% 15%;
 }
 
-
+.imagemlogologin{
+    height: 200px;
+    width: 250px;
+    margin: 20% 15% 1% 15%;
+}
 
 .infologin{
     font-size: medium;
@@ -23,21 +27,6 @@ body {
     font-size: small;
     margin-left: 5% ;
     margin-right: 5%;
-}
-
-label{
-    position: absolute;
-    left: 13px;
-    top: 13px;
-    padding: 0px 5px;
-    background: white;
-    font-size: 12px;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-input:focus{
-    transform: translateY(-20px);
-    color: black;
 }
 
 input:focus{

@@ -11,7 +11,6 @@
 </header>
 
 <body>
-    <?php if (empty($_SESSION["credencial_funcionario"])): ?>
 
         <div class="infologin">
             <h3> Criar Conta</h3>
@@ -33,10 +32,6 @@
         </div>
 
         <p class="terms">By clicking continue, you agree to our <strong> Terms of Service and Privacy Policy </strong></p>
-
-    <?php else: ?>
-        <?php if ($msg): ?><p class="msg"><?= $msg ?></p><?php endif; ?>
-    <?php endif; ?>
 
 </body>
 </html>
