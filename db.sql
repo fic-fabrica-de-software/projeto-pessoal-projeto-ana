@@ -4,7 +4,7 @@ USE db_prestaris;
 CREATE TABLE prestadores(
     id INT primary key AUTO_INCREMENT NOT NULL,
     nome varchar(120) NOT NULL,
-    datana DATETIME NOT NULL,
+    data_nascimento DATETIME NOT NULL,
     email varchar(45) NOT NULL,
     senha varchar(255) NOT NULL,
     cpf varchar(11) NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE prestadores(
 CREATE TABLE clientes(
     id INT primary key AUTO_INCREMENT NOT NULL,
     nome varchar(120) NOT NULL,
-    datana DATETIME NOT NULL,
+    data_nascimento DATETIME NOT NULL,
     email varchar(45) NOT NULL,
     senha varchar(255) NOT NULL,
     cpf varchar(11) NOT NULL,
