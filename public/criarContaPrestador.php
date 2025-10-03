@@ -63,6 +63,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="sucesso"><?= $sucesso ?></div>
                 <?php } ?>
 
+                <p> Crie sua conta como Prestador de Serviço</p>
+
                 <form method="POST" action="">
 
                     <div class="infocadastro">
@@ -97,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <input type="password" name="senha" placeholder="Senha" required>
                     </div>
 
-                    <input type="submit" value="Continue">
+                    <input class="botaoinverso" type="submit" value="Continue">
                 </form>
     </main>
 </body>
