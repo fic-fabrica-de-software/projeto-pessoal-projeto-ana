@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $pass   = $_POST['senha'] ?? "";
 
     
-    elseif (strlen($cpf) !== 11) {
+    if (strlen($cpf) !== 11) {
         $erro = "O CPF deve ter exatamente 11 dígitos.";
     }
     elseif (strlen($telefone) < 10) {
