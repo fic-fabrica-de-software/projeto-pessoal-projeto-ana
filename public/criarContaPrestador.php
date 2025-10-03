@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro Prestador</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 
@@ -98,6 +98,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="infocadastro">
                         <input type="password" name="senha" placeholder="Senha" required>
                     </div>
+
+                    <hr>
 
                     <input class="botaoinverso" type="submit" value="Continue">
                 </form>
