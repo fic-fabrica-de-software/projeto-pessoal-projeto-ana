@@ -13,7 +13,6 @@
 <body>
 
         <div class="infologin">
-            <h3> Criar Conta</h3>
             <p> Entre com seu e-mail para acessar o app</p>
         </div>
        
@@ -27,9 +26,22 @@
                         <div class="error" id="erroNome"></div>
                     </div>
     
-                    <button type="submit">Entrar</button>
+                    <button class="botaoinverso" type="submit">Entrar</button>
                 </form>
         </div>
+
+        <div class="or">
+            <br>
+            <hr>
+            <p>or</p>
+            <hr>
+            <br>
+        </div>
+
+        <button class="botao"> Continue como Prestador de Serviço</button>
+        <br>
+        <br>
+        <button class="botao"> Continue como Cliente</button>
 
         <p href="termosDeUso.php" class="terms">By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p>
 

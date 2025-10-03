@@ -47,6 +47,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Cadastro</title>
     <link rel="stylesheet" href="../styles/style.css">
 </head>
+
+<header>
+    <img class="imagemlogologin" src="../assets/logo.png" alt="">
+</header>
 <body>
 
     <main>
@@ -70,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
 
                     <div class="infocadastro">
-                        <input type="datetime" name="datana" placeholder="Data de Nascimento " required>
+                        <input type="datetime" name="data_nascimento" placeholder="Data de Nascimento " required>
                     </div>
 
                     <div class="infocadastro">
@@ -82,10 +86,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
 
                     <div class="infocadastro">
+                        <input type="text" name="servico" placeholder="Serviço a prestar:" required>
+                    </div>
+
+                    <div class="infocadastro">
+                        <input type="text" name="localizacao" placeholder="Localização:" required minlength="10">
+                    </div>
+
+                    <div class="infocadastro">
                         <input type="password" name="senha" placeholder="Senha" required>
                     </div>
 
-                    <input type="submit" value="Cadastrar">
+                    <input type="submit" value="Continue">
                 </form>
     </main>
 </body>
