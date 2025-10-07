@@ -47,7 +47,6 @@ input:focus{
     color: #888;
     text-decoration: none;
     font-size: 15px;
-
 }
 
 .termodeuso{
@@ -62,6 +61,7 @@ input:focus{
     background-color: rgb(231, 231, 231);
     padding: 10px 155px 10px 155px;
     margin-top: 10px;
+    text-decoration: none;
     border: 0;
 }
 
@@ -72,6 +72,7 @@ input:focus{
     padding: 12px 120px 12px 120px;
     border: 0;
     margin-bottom: 25px;
+    text-decoration: none;
 }
 
 .botao3{
@@ -82,6 +83,7 @@ input:focus{
     margin-top: 10px;
     margin-bottom: 20px;
     border: 0;
+    text-decoration: none;
 }
 
 .botaoinverso{

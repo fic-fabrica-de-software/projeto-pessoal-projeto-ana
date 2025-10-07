@@ -34,8 +34,8 @@
             <span>or</span>
         </div>
 
-        <button class="botao3"> Continue como Prestador de Serviço</button>
-        <button class="botao2"> Continue como Cliente</button>
+        <a href="criarContaPrestador.php"><button class="botao3"> Continue como Prestador de Serviço</button></a>
+        <a><button class="botao2"> Continue como Cliente</button></a>
 
         <a class="termos" href="termosDeUso.php"><p>By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p></a>
 
