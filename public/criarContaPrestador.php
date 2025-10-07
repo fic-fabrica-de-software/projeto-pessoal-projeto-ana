@@ -65,41 +65,41 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <p> Crie sua conta como Prestador de Serviço</p>
 
-                <form method="POST" action="">
+                <form class="cadastro" method="POST" action="">
 
-                    <div class="infocadastro">
-                        <input type="text" name="name" placeholder="Nome:" required>
+                    <div>
+                        <input id="info1" type="text" name="name" placeholder="Nome:" required>
                     </div>
 
-                    <div class="infocadastro">
-                        <input type="email" name="email" placeholder="email@gmail.cm: " required>
+                    <div>
+                        <input id="info2" type="email" name="email" placeholder="email@gmail.cm: " required>
                     </div>
 
-                    <div class="infocadastro">
-                        <input type="datetime" name="data_nascimento" placeholder="Data de Nascimento " required>
+                    <div>
+                        <input id="info3" type="datetime" name="data_nascimento" placeholder="Data de Nascimento " required>
                     </div>
 
-                    <div class="infocadastro">
-                        <input type="text" name="cpf" placeholder="CPF:" required minlength="11" maxlength="11">
+                    <div>
+                        <input id="info4" type="text" name="cpf" placeholder="CPF:" required minlength="11" maxlength="11">
                     </div>
 
-                    <div class="infocadastro">
-                        <input type="text" name="telefone" placeholder="Telefone:" required minlength="10">
+                    <div>
+                        <input id="info5" type="text" name="telefone" placeholder="Telefone:" required minlength="10">
                     </div>
 
-                    <div class="infocadastro">
-                        <input type="text" name="servico" placeholder="Serviço a prestar:" required>
+                    <div>
+                        <input id="info6" type="text" name="servico" placeholder="Serviço a prestar:" required>
                     </div>
 
-                    <div class="infocadastro">
-                        <input type="text" name="localizacao" placeholder="Localização:" required minlength="10">
+                    <div>
+                        <input id="info7" type="text" name="localizacao" placeholder="Localização:" required minlength="10">
                     </div>
 
-                    <div class="infocadastro">
-                        <input type="password" name="senha" placeholder="Senha" required>
+                    <div>
+                        <input id="info8" type="password" name="senha" placeholder="Senha" required>
                     </div>
 
-                    <hr>
+                    <hr class="new">
 
                     <input class="botaoinverso" type="submit" value="Continue">
                 </form>

@@ -35,9 +35,71 @@ input:focus{
     border-color: black;
 }
 
-.infocadatro{
-    margin-bottom: 3%;
+#info1{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;  
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
+
+#info2{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;  
+    margin-bottom: 10px;
+}
+
+#info3{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;
+    margin-bottom: 10px;  
+}
+
+#info4{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;
+    margin-bottom: 10px;  
+}
+
+#info5{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;
+    margin-bottom: 10px;  
+}
+
+#info6{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;  
+    margin-bottom: 10px;
+}
+
+#info7{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;  
+    margin-bottom: 10px;
+}
+
+#info8{
+    width: 358px;        
+    padding: 10px 15px;        
+    border: 1px solid #ccc;  
+    border-radius: 10px;  
+    margin-bottom: 10px;
+}
+
 
 .text-input{
   width:300px
@@ -116,4 +178,12 @@ input:focus{
 
 .divider:not(:empty)::after {
   margin-left: 20px;
+}
+
+.new {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #888;
+  margin: 20px 20px 20px 20px;
 }
