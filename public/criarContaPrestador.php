@@ -5,12 +5,14 @@ $erro = "";
 $sucesso = "";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $name   = $_POST['name'] ?? "";
+    $nome   = $_POST['nome'] ?? "";
     $email  = $_POST['email'] ?? "";
     $datana  = $_POST['datana'] ?? "";
     $cpf    = $_POST['cpf'] ?? "";
     $telefone  = $_POST['telefone'] ?? "";
     $pass   = $_POST['senha'] ?? "";
+    $servico  = $_POST['servico'] ?? "";
+    $localizacao  = $_POST['localizacao'] ?? "";
 
     
     if (strlen($cpf) !== 11) {
@@ -22,11 +24,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     else {
        
         $sql = "INSERT INTO usuários
-                (name, email, datana, cpf, telefone, senha)
-                VALUES (?, ?, ?, ?, ?, ?)";
+                (nome, email, datana, cpf, telefone, senha, servico, localizacao)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         $stmt = $conn->prepare($sql);
-        $stmt->bind_param("isssssssi", $name, $email, $datana, $cpf, $telefone, $pass);
+        $stmt->bind_param("isssssssi", $nome, $email, $datana, $cpf, $telefone, $pass, $servico, $localizacao);
 
         if ($stmt->execute()) {
             $sucesso = "Novo registro criado com sucesso!";
@@ -68,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <form class="cadastro" method="POST" action="">
 
                     <div>
-                        <input id="info1" type="text" name="name" placeholder="Nome:" required>
+                        <input id="info1" type="text" name="nome" placeholder="Nome:" required>
                     </div>
 
                     <div>
