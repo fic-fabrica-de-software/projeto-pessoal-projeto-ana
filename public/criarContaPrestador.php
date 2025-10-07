@@ -106,5 +106,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <input class="botaoinverso" type="submit" value="Continue">
                 </form>
     </main>
+
 </body>
 </html>
