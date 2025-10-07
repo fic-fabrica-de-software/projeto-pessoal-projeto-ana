@@ -43,7 +43,7 @@
         <br>
         <button class="botao"> Continue como Cliente</button>
 
-        <p href="termosDeUso.php" class="terms">By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p>
+        <a href="termosDeUso.php"><p class="terms">By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p></a>
 
 </body>
 </html>

@@ -12,7 +12,7 @@
     <main>
 
         <div>
-            <img href="/public/login.php" class="imagemlogo" src="assets/logo_visual.png" alt="Logo do app">
+            <a href="public/login.php"><img href="public/login.php" class="imagemlogo" src="assets/logo_visual.png" alt="Logo do app"></a>
         </div>
 
     </main>
