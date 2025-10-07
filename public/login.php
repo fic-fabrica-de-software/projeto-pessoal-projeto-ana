@@ -16,11 +16,11 @@ if (isset($_GET['logout'])) {
 
 $msg = "";
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $nome = $_POST["email"] ?? "";
+    $email = $_POST["email"] ?? "";
     
     $stmt = $mysqli->prepare("SELECT email FROM prestadores WHERE email=?");
     $stmt = $mysqli->prepare("SELECT email FROM clientes WHERE email=?");
-    $stmt->bind_param("ss", $email);
+    $stmt->bind_param( $email, $email);
     $stmt->execute();
     $result = $stmt->get_result();
     $dados = $result->fetch_assoc();
