@@ -23,10 +23,6 @@ body {
     font-size: medium;
 }
 
-.terms{
-    font-size: small;
-}
-
 input:focus{
     border-color: black;
 }
@@ -41,20 +37,18 @@ input:focus{
 
 .termodeuso{
     text-align: left;
-    font-size: x-small;
+    font-size: small;
+    margin: 10px 15px 10px 15px;
 }
 
 .botao{
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
-    background-color: rgb(228, 221, 221);
-    padding: 5px 20px 5px 20px;
+    background-color: rgb(231, 231, 231);
+    padding: 10px 150px 10px 150px;
+    margin-top: 10px;
+    border: 0;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-}
-.botao:hover{
-    background-color: rgb(185, 174, 174);
-    color: rgb(0, 0, 0);
-    transform: scale(1.2)
 }
 
 .botaoinverso{
@@ -63,11 +57,6 @@ input:focus{
     background-color: rgb(0, 0, 0);
     padding: 5px 20px 5px 20px;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-}
-.botaoinverso:hover{
-    background-color: rgb(185, 174, 174);
-    color: rgb(0, 0, 0);
-    transform: scale(1.2)
 }
 
 .or{
