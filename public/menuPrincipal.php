@@ -18,19 +18,19 @@
     <h2>Conheça novos serviços</h2>
     <div class="servicos">
       <div class="servico">
-        <img src="../assets/pintura/1.png" alt="">
+        <img src="../assets/pintura/1.jpg" alt="">
         <p>Pintura</p>
       </div>
       <div class="servico">
-        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="">
+        <img src="../assets/limpeza/1.png" alt="">
         <p>Limpeza</p>
       </div>
       <div class="servico">
-        <img src="https://cdn-icons-png.flaticon.com/512/1085/1085687.png" alt="">
+        <img src="../assets/jardinagem/1.jpg" alt="">
         <p>Jardinagem</p>
       </div>
       <div class="servico">
-        <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="">
+        <img src="../assets/dog_walker/1.jpg" alt="">
         <p>Dog-Walker</p>
       </div>
     </div>
