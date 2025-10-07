@@ -26,7 +26,7 @@
                         <div class="error" id="erroNome"></div>
                     </div>
     
-                    <button class="botaoinverso" type="submit">Entrar</button>
+                    <button class="botaoinverso" type="submit">Continue</button>
                 </form>
         </div>
 
@@ -38,10 +38,10 @@
             <br>
         </div>
 
-        <button class="botao"> Continue como Prestador de Serviço</button>
+        <button class="botao3"> Continue como Prestador de Serviço</button>
         <br>
         <br>
-        <button class="botao"> Continue como Cliente</button>
+        <button class="botao2"> Continue como Cliente</button>
 
         <a class="termos" href="termosDeUso.php"><p>By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p></a>
 
