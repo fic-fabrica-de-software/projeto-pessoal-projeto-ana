@@ -7,6 +7,13 @@ body {
     border: 0px;
 }
 
+#email {
+  width: 358px;        
+  padding: 10px 15px;        
+  border: 1px solid #ccc;  
+  border-radius: 10px;                   
+}
+
 .imagemlogo{
     height: 150px;
     width: 210px;
@@ -20,7 +27,8 @@ body {
 }
 
 .infologin{
-    font-size: medium;
+    margin-top: 50px;
+    font-size: 15px;
 }
 
 input:focus{
@@ -36,9 +44,9 @@ input:focus{
 }
 
 .termos{
-    color: rgb(112, 108, 108);
+    color: #888;
     text-decoration: none;
-    font-size: medium;
+    font-size: 15px;
 
 }
 
@@ -61,7 +69,7 @@ input:focus{
     border-radius: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(231, 231, 231);
-    padding: 15px 120px 15px 120px;
+    padding: 12px 120px 12px 120px;
     border: 0;
     margin-bottom: 25px;
 }
@@ -70,8 +78,9 @@ input:focus{
     border-radius: 10px;
     color: rgb(0, 0, 0);
     background-color: rgb(231, 231, 231);
-    padding: 15px 78px 15px 78px;
+    padding: 12px 78px 12px 78px;
     margin-top: 10px;
+    margin-bottom: 20px;
     border: 0;
 }
 
@@ -80,10 +89,29 @@ input:focus{
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     padding: 10px 155px 10px 155px;
-    margin-top: 10px;
+    margin-top: 15px;
     border: 0;
 }
 
-.or{
-    display: flex;
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #888;
+  margin: 20px 20px 20px 20px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #c9c7c7;
+}
+
+.divider:not(:empty)::before {
+  margin-right: 20px;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 20px;
 }

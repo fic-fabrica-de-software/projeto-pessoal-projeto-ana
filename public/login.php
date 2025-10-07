@@ -30,17 +30,11 @@
                 </form>
         </div>
 
-        <div class="or">
-            <br>
-            <hr>
-            <p>or</p>
-            <hr>
-            <br>
+        <div class="divider">
+            <span>or</span>
         </div>
 
         <button class="botao3"> Continue como Prestador de Serviço</button>
-        <br>
-        <br>
         <button class="botao2"> Continue como Cliente</button>
 
         <a class="termos" href="termosDeUso.php"><p>By clicking continue, you agree to our <strong> Terms of Service</strong> and <strong> Privacy Policy </strong></p></a>
