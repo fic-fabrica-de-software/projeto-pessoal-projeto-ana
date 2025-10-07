@@ -187,3 +187,88 @@ input:focus{
   color: #888;
   margin: 20px 20px 20px 20px;
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+section {
+    padding: 10px;
+}
+
+section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.servicos {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.servico {
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.servico img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.cards {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+}
+
+.card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 160px;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card .info {
+    padding: 8px;
+}
+
+    .card .info p {
+    font-size: 14px;
+    color: #333;
+}
+
+.card .info span {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.cupom_principal{
+    width: 350px;
+    height: 165px;
+    border-radius: 10px;
+}
+
+.img_footer{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    margin-left: 15px;
+}

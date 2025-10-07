@@ -12,7 +12,7 @@
     <input type="text" placeholder="Pesquisar">
   </div>
 
-  <img src="" alt="">
+  <img class="cupom_principal" src="../assets/cupom_vermelho.png" alt="">
 
   <section>
     <h2>Conheça novos serviços</h2>
