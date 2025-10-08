@@ -8,8 +8,19 @@
 </head>
 <body>
 
-  <div class="search-bar">
-    <input type="text" placeholder="Pesquisar">
+  <div class="opcoes">
+      <div class="opcao">
+        <img class="img_opcao" src="../assets/coracao.png" alt="">
+        <p>Atividade</p>
+      </div>
+      <div class="opcao">
+        <img class="img_opcao" src="../assets/relogio.png" alt="">
+        <p>Histórico</p>
+      </div>
+      <div class="opcao">
+        <img class="img_opcao" src="../assets/seguindo.png" alt="">
+        <p>Seguindo</p>
+      </div>
   </div>
 
   <img class="cupom_principal" src="../assets/cupom_vermelho.png" alt="">
@@ -40,21 +51,21 @@
     <h2>Visitados Recentemente</h2>
     <div class="cards">
       <div class="card">
-        <img src="https://cdn-icons-png.flaticon.com/512/1584/1584909.png" alt="">
+        <img src="../assets/limpeza/4.jpg" alt="">
         <div class="info">
           <p>Limpeza interna</p>
           <span>R$105,99/h</span>
         </div>
       </div>
       <div class="card">
-        <img src="https://cdn-icons-png.flaticon.com/512/2910/2910757.png" alt="">
+        <img src="../assets/pintura/4.jpg" alt="">
         <div class="info">
-          <p>Eletricista residencial</p>
+          <p>Pintura residencial</p>
           <span>R$79,99/h</span>
         </div>
       </div>
       <div class="card">
-        <img src="https://cdn-icons-png.flaticon.com/512/2634/2634575.png" alt="">
+        <img src="../assets/encanador/4.png" alt="">
         <div class="info">
           <p>Encanador</p>
           <span>R$56,99/h</span>
@@ -62,13 +73,6 @@
       </div>
     </div>
   </section>
-
-  <div class="bottom-nav">
-    <i class="fas fa-home"></i>
-    <i class="fas fa-history"></i>
-    <i class="fas fa-shopping-cart"></i>
-    <i class="fas fa-user"></i>
-  </div>
 
   <?php include('../includes/footer.php'); ?>
 
