@@ -1,4 +1,4 @@
-# Projeto SA - Fast Sesi
+# Projeto Pessoal
 
 <p>
   <img src="http://raw.githubusercontent.com/fic-fabrica-de-software/projeto-pessoal-projeto-ana/refs/heads/main/assets/logo.png" width="100" alt="Logo Prestaris">
